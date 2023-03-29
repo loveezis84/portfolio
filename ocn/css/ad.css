@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.adbanner{
+    width: 1200px;
+    height: 120px;
+    background-image: url("../banner/middlebanner.png");
+    clear: both;
+}

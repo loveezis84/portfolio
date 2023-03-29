@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../default.css">
+    <link rel="stylesheet" type="text/css" href="../font.css">
+    <link rel="stylesheet" type="text/css" href="./index.css?v=20">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./ico/favicon.ico">
+</head>
+
+<body>
+    <!--상단-->
+    <header id="topmenu">
+        <?php include "./top.html"?>
+        <!-- <div class="menuleft" id="menuleft" title="OCN- 대한민국 No.1 채널">
+            <ul>
+                <li>
+                    <img src="./images/tving_logo.png">
+                </li>
+            </ul>
+        </div> -->
+        <!-- <div class="menuright" id="menuright">
+            <ul>
+                <li>로그인</li>
+                <li>티빙 회원가입</li>
+                <li>이용권 구매</li>
+                <li>프로그램 검색</li>
+            </ul>
+        </div> -->
+    </header>
+
+    <!--메뉴-->
+    <nav id="ocnTop">
+        <?php include "./menu.html"?>
+        <!-- <div class="ocnSize">
+            <img src="./images/ocn_logo.png" class=ocnimg>
+        </div>
+        <div class="ocnMenu">
+            <ul>
+                <li class=ocnStory>OCN 스토리
+                    <ol class="ocnSubMenu">
+                        <li>OCN 스토리</li>
+                        <li>OCN 메니페스토</li>
+                        <li>OCN 히스토리</li>
+                        <li>OCN 시청자 캠페인</li>
+                    </ol>
+                </li>
+                <li>OCN 편성표</li>
+                <li>동영상</li>
+                <li>OCN 블록</li>
+                <li>OCN 오리지널</li>
+            </ul>
+        </div> -->
+
+    </nav>
+
+    <main>
+        <!--배너-->
+        <section class="mainview">
+            <?php include "./banner.html"?>
+
+            <!-- <span>
+                <img src="./banner/banner_01.jpg">
+            </span>
+            <span>
+                <img src="./banner/banner_02.jpg">
+            </span>
+            <span>
+                <img src="./banner/banner_03.jpg">
+            </span>
+            <span>
+                <img src="./banner/banner_04.jpg">
+            </span>
+            <span>
+                <img src="./banner/leftbtn.png">
+            </span>
+            <span>
+                <img src="./banner/rightbtn.png">
+            </span> -->
+
+        </section>
+
+        <!--weekday-->
+        <section class="weekday">
+            <?php include "./week.html"?>
+        </section>
+        <!--최신동영상-->
+        <section class="movie">
+            <?php include "./onair.html"?>
+        </section>
+        <!--AD배너-->
+        <aside class="adBanner">
+            <?php include "./ad.html"?>
+        </aside>
+        <!--new contents-->
+        <section class="newContents">
+            <?php include "./new_content.html"?>
+        </section>
+    </main>
+    <!--copyright +공지사항-->
+    <footer class="copyright">
+        <?php include "./copyright.html"?>
+    </footer>
+
+    </main>
+</body>
+
+</html>
